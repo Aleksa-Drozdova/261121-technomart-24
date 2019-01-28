@@ -66,7 +66,31 @@
        </ul>
          <h1>ПЕРФОРАТОРЫ</h1>
          <!--поле для фильтра-->
+         <div class="div-dilter">
+          <p class="filter"> ФИЛЬТР </p>
+          <p class="price-filter"> ЦЕНА </p>
+          </p>
+          <input type="range" min="0" max="30000" step="1" value="75">
+          <input class="price-range" type="text" min="0" max="3000" step="1" value="1">
+          <p>-</p>
+          <input class="price-range" type="text" min="0" max="3000" step="1" value="30000">
+         </div>
+         </p>
+
          <!--поле для сортировки-->
+
+        <div class="div-sort">
+            <p class="filter"> СОРТИРОВКА</p>
+            <ul class="sort-panel">
+              <li><a class="sort-panel-current">ПО ЦЕНЕ</a></li> 
+              <li><a href="#">ПО ТИПУ</a></li>
+              <li><a href="#">ПО ФУНКЦИОНАЛУ</a></li>
+            </ul>
+            <div class="arrow">
+             <!--здесь будут стрелки вверх вниз, скорее всего в  svg?-->
+            </div>
+
+        </div>
          <section class="filters">
             <h2 class="visually-hidden">Производители товаров</h2>
             <h2> ПРОИЗВОДИТЕЛИ:</h2>
@@ -86,6 +110,7 @@
             <section class="catalog">
               <h2 class="visually-hidden">ПЕРФОРАТОРЫ</h2>
               <ul class="catalog-list">
+                <!--первый ТОВАР-->
                 <li class="catalog-item">
                   <h3>
                     <a href="catalog-item.html"> 
@@ -195,6 +220,22 @@
                 </li>
               </ul>
             </section>
+            <ul class="pagination-list">
+                <li class="pagination-item pagination-item-current"><a></a>1</a></li>
+                <li class="pagination-item "><a href="#">2</a></li>
+                <li class="pagination-item"><a href="#">3</a></li>
+                <li class="pagination-item-next"><a href="#">СЛЕДУЮЩАЯ</a></li>
+              </ul>
+              <div class="about-drill">
+                <h1> ПАРА СЛОВ О ПЕРФОРАТОРАХ</h1>
+                <p class="p-about-drill"> 
+                    Перфоратор — универсальный строительный инструмент. Предназначен для сверления и 
+                    долбления отверстий в кирпиче, бетоне и камне.
+                    Существуют электромеханические и пневматические перфораторы.
+                     Современные модели могут выполнять функции дрели, шуруповерта и отбойного молотка. 
+                     В ассортиментном ряду есть выбор «трехрежимников»: в одном устройстве будут совмещены 
+                     отбойный молоток и ударная дрель.</p>
+              </div>
       </main>
 
       <footer class="main-footer">
