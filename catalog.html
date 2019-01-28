@@ -7,29 +7,25 @@
   <body>
     
     <header class="main-header">
-        <nav class="first-navigation">
+        <div class="nav-purchase">
             <a class="main-header-logo" href="index.html">
                 <img src="img/index-logo.svg" width="368" height="153" alt="Логотип ТЕХНОМАРТ">
                 </a>
-                <form action="/search/" target="_blank">
                   <input type="hidden" name="searchid" value="808327">
-                  <input type="search" name="text" required placeholder="Поиск:"style="
-                  padding: 5px 2px 5px 25px;
-                  background: url('http://3.bp.blogspot.com/-4w14hQHr5yQ/Tgm6u7KwUkI/AAAAAAAACAI/Hu2poBOPx3g/s25/search.png') no-repeat scroll 0 50%;
-                  ">
-                    </form>
+                  <input type="search" name="text" required placeholder="Поиск:">
+                  <!--form search-->
                   <ul>
                     <li> <a href="saved.html">Закладки:0</a></li>
                     <li> <a class="button-bag" href="bag.html">Корзина:10</a></li>
                     <li> <a class="button-order" href="order.html">Оформить заказ</a></li>
                   </ul>
-                </nav>
+        </div>
                 <section class="info-nav">
-                    <h1>
+                    <p class="nav-title">
                         Интернет-магазин<br>
                         строительных материалов<br>
                         и инструментов для ремонта<br>
-                    </h1>
+                    </p>
                     <a class="button-call" href="tel:+7(812)55-05-55">+7(812)55-05-55</a>
                      <p>
                         г. Санкт-Петербург, ул. Б. Конюшенная, д. 19/8
@@ -58,16 +54,15 @@
       </nav>
     </header>
 
-
       <main class="container">
         <ul class="breadcrumbs">
          <li> <a href="index.html">
-           <img src="home.jpg" width="100" height="100" alt=""> <!--как вставляется иконка дома?-->
+           <img src="home.jpg" width="100" height="100" alt="">
          </a>
         </li>
         <li> <a href="catalog.html"> КАТАЛОГ</a></li>
         <li> <a href="tools.html"> ИНСТРУМЕНТ</a></li>
-        <li> <a href="catalog-perfor.html"> ПЕРФОРАТОРЫ</a></li> <!--как назвать страницу с перфоратором?-->
+        <li> <a> ПЕРФОРАТОРЫ</a></li> 
        </ul>
          <h1>ПЕРФОРАТОРЫ</h1>
          <!--поле для фильтра-->
@@ -77,7 +72,7 @@
             <h2> ПРОИЗВОДИТЕЛИ:</h2>
               <input type="checkbox" checked><label>BOSH </label><br>
               <input type="checkbox" ><label>ИНТЕРСКОЛ</label><br>
-              <input type="checkbox" ><label>MAKITA/label><br>
+              <input type="checkbox" ><label>MAKITA</label><br>
               <input type="checkbox" checked><label>DEWALT</label><br>
               <input type="checkbox"><label>HITACHI </label><br>
           </section>
@@ -93,20 +88,20 @@
               <ul class="catalog-list">
                 <li class="catalog-item">
                   <h3>
-                    <a href="catalog-item.html"> <!--почему сначала идет название а потом картинка?-->
-                      <span class="catalog-category">Перфоратор Bosh </span>  <!--почему нельзя просто вставить p + br для разделения текста?-->
+                    <a href="catalog-item.html"> 
+                      <span class="catalog-category">Перфоратор Bosh </span>  
                       <span class="catalog-category"> BFG 3000</span> 
                     </a>
                   </h3>
-                    <p class="catalog-item-image">
+                  <p class="catalog-item-image">
                         <a href="catalog-item.html">
                             <img src="img/product-1" width="220" height="165" alt="перфоратор Bosh BFG 3000">
                         </a>
-                    </p>
-                    <p class="catalog-item-price">
+                  </p>
+                  <p class="catalog-item-price">
                       <b class="old-price">22500 Р.</b>
                       <a class="button-price"  href="#">15500 Р.</a>
-                    </p>
+                  </p>
                 </li>
                   <!--ВТОРОЙ ТОВАР-->
                 <li class="catalog-item">
@@ -202,9 +197,9 @@
             </section>
       </main>
 
-
       <footer class="main-footer">
-            <a class="footer-logo">
+        <div class="first-footer">
+            <a class="footer-logo" href="index.html">
                 <img src="img/index-logo.svg" width="368" height="153" alt="Логотип ТЕХНОМАРТ">
                 </a>
                 <p class="footer-contacts">
@@ -226,34 +221,29 @@
                       <li><a href="specials.html"> Спецпредложения</a></li>
                   </ul>
                   </div>
+         </div>
+         <div class="second-footer">
+            <p class="footer-copyright">
+                © 2010–2019 Компания «Техномарт»<br>
+                Все права защищены
+            </p>
+            <div class="footer-social">
+            <ul>
+              <li> <a class="social-button vk-button" href="#"></a></li>
+              <li> <a class="social-button facebook-button" href="#"></a></li>
+              <li> <a class="social-button instagram-button" href="#"></a></li>
+            </ul>
+            </div>
+            <p>Обратная связь:</p> 
+            <p> <a class="footer-feedback" href="mail@htmlacademy.ru">mail@htmlacademy.ru</a> </p>
+            <p> Разработано -</p>
+            <p> <a class="footer-developed" href="https://htmlacademy.ru/intensive/htmlcss">htmlacademy.ru</a></p>
+         </div>
         </footer>
-        <footer class="second-footer">
-          <p class="footer-copyright">
-              © 2010–2019 Компания «Техномарт»<br>
-              Все права защищены
-          </p>
-          <div class="footer-social">
-          <ul>
-            <li> <a class="social-button vk-button" href="#"></a></li>
-            <li> <a class="social-button facebook-button" href="#"></a></li>
-            <li> <a class="social-button instagram-button" href="#"></a></li>
-          </ul>
-        </div>
-        <p class="footer-feedback">
-          <b>Обратная связь:</b>
-          mail@htmlacademy.ru
-        </p>
-        <p class="footer-developed">
-            <b>Разработано - </b>
-            htmlacademy.ru
-          </p>
-        </footer>
+
         <section class="modal modal-login">
             <!--here will be form write us-->
             <span class="modal-close">x</span>
-          </section>
-    
-    </section>
-
+          </section>        
   </body>
 </html>
