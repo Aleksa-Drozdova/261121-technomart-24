@@ -12,11 +12,11 @@
                 <img src="img/index-logo.svg" width="368" height="153" alt="Логотип ТЕХНОМАРТ">
                 </a>
                   <input type="hidden" name="searchid" value="808327">
-                  <input type="search" name="text" required placeholder="Поиск:">
+                  <input type="search" class="search" name="text" required placeholder="Поиск:">
                   <!--form search-->
                   <ul>
-                    <li> <a href="saved.html">Закладки:0</a></li>
-                    <li> <a href="bag.html">Корзина:0</a></li>
+                    <li> <a class="bookmarks" href="bookmarks.html" >Закладки:0</a></li>
+                    <li> <a class="cart" href="cart.html" >Корзина:0</a></li>
                     <li> <a class="button-order" href="order.html">Оформить заказ</a></li>
                   </ul>
                 </div>
@@ -39,7 +39,7 @@
       <nav class="main-navigation">
          
             <ul class="site-navigation">
-              <li> <a href="main.html"> Главная </a> </li>
+              <li> <a href="main.html" > Главная </a> </li>
               <li> <a href="company.html"> Компания </a> </li>
               <li> <a href="catalog.html"> Каталог</a> </li>
               <li> <a href="news.html"> Новости </a> </li>
@@ -58,7 +58,7 @@
                 </a>
               </h4>
             <div class="tools-category-image">
-                <img src="img/tool-1" width="100" height="120" alt="материалы для работы- краска">
+                <img src="img/icon-1.svg" width="100" height="120" alt="материалы для работы- краска">
               </a>
             </div>
             <p class="tools-category-button">
@@ -73,7 +73,7 @@
                   </a>
                 </h4>
               <div class="tools-category-image">
-                  <img src="img/tool-2" width="100" height="120" alt="материалы для работы- краска">
+                  <img src="img/icon-2.svg" width="100" height="120" alt="материалы для работы- краска">
                 </a>
               </div>
               <p class="tools-category-button">
@@ -87,7 +87,7 @@
                     </a>
                   </h4>
                 <div class="tools-category-image">
-                    <img src="img/tool-3" width="100" height="120" alt="материалы для работы- краска">
+                    <img src="img/icon-3.svg" width="100" height="120" alt="материалы для работы- краска">
                   </a>
                 </div>
                 <p class="tools-category-button">
@@ -108,7 +108,7 @@
                       </a>
                     </h4>
                   <div class="tools-category-image">
-                      <img src="img/tool-4" width="100" height="120" alt="материалы для работы- краска">
+                      <img src="img/icon-4.svg" width="100" height="120" alt="материалы для работы- краска">
                     </a>
                   </div>
                   <p class="tools-category-button">
@@ -122,7 +122,7 @@
                       </a>
                     </h4>
                   <div class="tools-category-image">
-                      <img src="img/tool-5" width="100" height="120" alt="материалы для работы- краска">
+                      <img src="img/icon-5.svg" width="100" height="120" alt="материалы для работы- краска">
                     </a>
                   </div>
                   <p class="tools-category-button">
@@ -138,14 +138,14 @@
               <p class="slider-title-text-p">Соседям на радость</p>
             </div>
               <div class="numbertext">1 / 2</div>
-              <img src="slide-1.jpg" style="width:100%">
+              <img src="img/slider-1.jpg" style="width:100%">
               <div class="button-slider">
                   <a class="button-slider-text" href="catalog.html">ОТКРЫТЬ КАТАЛОГ</a>
                 </div>
           </div>
             <div class="slider">
               <div class="numbertext">2 / 2</div>
-              <img src="slide-2.jpg" style="width:100%">
+              <img src="slider-2.jpg" style="width:100%">
               <div class="button-slider">
                 <a class="button-slider-text" href="catalog.html">ОТКРЫТЬ КАТАЛОГ</a>
               </div>
@@ -153,7 +153,15 @@
               <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
           <a class="next" onclick="plusSlides(1)">&#10095;</a>
         </div>
+         <!-- The dots/circles -->
+         <div style="text-align:center">
+          <span class="dot" onclick="currentSlide(1)"></span> 
+          <span class="dot" onclick="currentSlide(2)"></span>
+        </div>
+      </div>
         </section>
+
+
         <section class="popular">
           <p class="popular-title">ПОПУЛЯРНЫЕ ТОВАРЫ:</p>
           <a class="button-popular" href="popular.html">ВСЕ ПОПУЛЯРНЫЕ ТОВАРЫ</a>
@@ -171,7 +179,7 @@
                 </h3>
                 <div class="catalog-item-image">
                       <a href="catalog-item.html">
-                          <img src="img/product-1"  width="220" height="165" alt="перфоратор Bosh BFG 3000">
+                          <img src="img/Perforator_1.jpg"  width="220" height="165" alt="перфоратор Bosh BFG 3000">
                       </a>
                     </div>
                 <p class="catalog-item-price">
@@ -189,7 +197,7 @@
                   </h3>
                     <div class="catalog-item-image">
                         <a href="catalog-item.html">
-                            <img src="img/product-2.jpg" width="220" height="165" alt="перфоратор Bosh BFG 6000">
+                            <img src="img/Perforator_2.jpg" width="220" height="165" alt="перфоратор Bosh BFG 6000">
                         </a>
                     </div>
                     <p class="catalog-item-price">
@@ -207,7 +215,7 @@
                     </h3>
                       <div class="catalog-item-image">
                           <a href="catalog-item.html">
-                              <img src="img/product-3.jpg" width="220" height="165" alt="перфоратор Bosh BFG 6000">
+                              <img src="img/perforator_3.jpg" width="220" height="165" alt="перфоратор Bosh BFG 6000">
                           </a>
                       </div>
                       <p class="catalog-item-price">
@@ -226,7 +234,7 @@
                         <div class="catalog-item-image">
                             <a class="item-new"> new</a>
                             <a href="catalog-item.html">
-                                <img src="img/product-1.jpg" width="220" height="165" alt="перфоратор Bosh BFG 3000">
+                                <img src="img/perforator_4.jpg" width="220" height="165" alt="перфоратор Bosh BFG 3000">
                             </a>
                         </div>
                         <p class="catalog-item-price">
@@ -322,7 +330,7 @@
                     к вашему подъезду совершенно бесплатно!
                     Ведь мы неплохо заработаем, 
                     поднимая его на ваш этаж!</p>
-                    <img class="service-delivery-image" src="img/delivery.jpg" alt="доставка">
+                    <img class="service-delivery-image" src="img/car.png" alt="доставка">
               </div>
             
               <div class="delivery">
@@ -331,20 +339,20 @@
                       а также в случае пожара, спровоцированного его возгаранием,  вы всегда можете быть уверены в нашей гарантии. Мы обменяем сгоревший товар на новый. 
                       Дом уж восстановите как-нибудь сами.
                     </p>
-                    <img class="service-delivery-image" src="img/warranty.jpg" alt="гарантия">
+                    <img class="service-delivery-image" src="img/medal.png" alt="гарантия">
                 </div>
                 <div class="delivery">
                     <p class="delivery-title">КРЕДИТ</p>
                     <p>Залезть в долговую яму стало проще! 
                         Кредитные консультанты придут вам на помощь.</p>
                     <a class="send-button" href="#">ОТПРАВИТЬ ЗАЯВКУ</a>
-                    <img class="service-delivery-image" src="img/credit.jpg" alt="Кредит">
+                    <img class="service-delivery-image" src="img/credit.png" alt="Кредит">
                   </div>
                   
             </section>
 
 
-          <section class="section-about" >
+          <div class="section-about" >
             <h2 class="about-technomart">КОМПАНИЯ "ТЕХНОМАРТ"</h2>
             <p>
                 Настоящий мужской шоппинг начинается здесь! Огромный выбор товаров для ремонта и <br>
@@ -360,15 +368,17 @@
               <li> ЖелДорЭкспедиция</li>
             </ul>
             <a href="more-about.html"> ПОДРОБНЕЕ О КОМПАНИИ</a>
-          </section>
-        <section class="contacts">
+          </div>
+        <div class="contacts">
+            <h2 class="about-technomart">КОНТАКТЫ</h2>
           <p>
               Вы можете забрать товар сами, <br>
               заехав в наш офис:
           </p>
           <!-- map -->
+          <img class="map" src="img/map.jpg" alt="Карта проезда">
           <a class="button-contact" > ЗАБЛУДИЛИСЬ? НАПИШИТЕ НАМ!</a>
-        </section>
+        </div>
 
 
       </main>
