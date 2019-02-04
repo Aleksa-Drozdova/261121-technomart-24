@@ -149,12 +149,18 @@
         <a class="up" href="#">&#9650;</a>
         <a class="up" href="#">&#9660;</a>
       </div>
-      <div class="price-div-left">
-        <p class="price-filter"> ЦЕНА </p>
-        <input type="range" min="0" max="30000" step="1" value="27000" class="filter-grey">
-        <input class="price-range" type="text" min="0" max="3000" step="1" value="0" class="filter-grey">
-        -
-        <input class="price-range" type="text" min="0" max="3000" step="1" value="30000" class="filter-grey">
+      <div class="filters-left">
+        <form class="price-filter" method="get" action="https://echo.htmlacademy.ru">
+          <fieldset>
+            <h2 class="visually-hidden">ЦЕНА</h2>
+            <legend>ЦЕНА:</legend>
+
+            <input type="range" min="0" max="30000" step="1" value="27000" class="filter-grey">
+            <input class="price-range" type="text" min="0" max="30000" step="1" value="0" class="filter-grey">
+            -
+            <input class="price-range" type="text" min="0" max="30000" step="1" value="30000" class="filter-grey">
+          </fieldset>
+        </form>
       </div>
       <div class="filters-left">
         <form class="filter" method="get" action="https://echo.htmlacademy.ru">
@@ -201,7 +207,7 @@
           </fieldset>
           <button type="submit" class="submit" href="#">ПОКАЗАТЬ</button>
         </form>
-        
+
       </div>
     </section>
     <section class="catalog">
