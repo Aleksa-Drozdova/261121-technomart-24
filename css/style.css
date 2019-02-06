@@ -1,0 +1,484 @@
+font-family: 'PT Sans', sans-serif;
+
+body {
+    margin: 0;
+    padding: 0;
+    
+    font-family: 'Cuprum', sans-serif;
+    font-size: 17px;
+    line-height: 17px;
+    font-weight: 700;
+    color: #ffffff;
+   
+    background-color: #ffffff;
+    background-position: top center;
+    background-repeat: no-repeat;
+    
+    }
+
+    a{
+        text-decoration: none;
+    }
+
+    
+    .user-panel,
+    .user-navigation-2,
+    .site-navigation,
+    .tools-list,
+    .catalog-list,
+    .trans-company,
+    .footer-navigation,
+    .footer-navigation-2,
+    .footer-social,
+    .user-data,
+    .breadcrumbs,
+    .div-sort li,
+    .filter li,
+    .pagination-list,
+    .button-cart-modal,
+    .service-delivery-div li
+    {
+    list-style: none;
+    }
+
+    .user-panel a,
+    .site-navigation a{
+    
+        color: white;
+        font-family: 'Cuprum';
+    }
+
+   .user-navigation{
+       background-color: #293449;
+   }
+   .site-navigation{
+   background-color: #32425c;
+}
+
+.user-data a{
+    color: #32425c;
+    text-align: center;
+    vertical-align: middle;
+    font-family: 'Cuprum';
+}
+
+.user-data li:not(:first-child){
+    font-size: 16px;
+    line-height: 18px;
+}
+
+.user-data li:first-child{
+    font-size: 21px;
+    line-height: 21px;
+}
+
+.user-data a:hover {
+    color: #ee3643;
+}
+
+.user-data a:active{
+    color: #e7e7e7;
+}
+
+
+.breadcrumbs a{
+    color: #000000;
+    font-size: 13px;
+    line-height: 18px;
+    font-family: 'Cuprum';
+}
+.filter fieldset,
+.div-filter fieldset
+ {
+    border: none;
+  }
+  .title-catalog h1{
+      font-size: 30px;
+      line-height: 30px;
+      color: #32425c;
+      font-family: 'Cuprum';
+      text-align: left;
+  }
+
+  .div-sort,
+  .filter-line 
+  {
+      font-size: 13px;
+      line-height: 18px;
+      font-family: 'PT Sans';
+     
+  }
+  .div-sort a{
+    color: #b2b2b2;}
+  
+  fieldset label{
+      font-size: 15px;
+      line-height: 20px;
+      font-family: 'PT Sans';
+  }
+  .sort-panel a{
+   text-decoration: underline dashed ;
+    text-decoration-color: #ee3643 ;  }
+
+    .sort-panel a:hover{
+        text-decoration: underline ;
+         text-decoration-color: #ee3643 ; }
+    
+         .sort-panel a:active{
+            color: #ee3643 ; }
+
+
+ form button{
+     font-size: 13px;
+     line-height: 18px;
+     border: 1px solid #e5e5e5; 
+ }
+  .filter legend{
+    font-size: 17px;
+    line-height: 30px;
+    font-weight: bold;
+}
+.catalog-list li{
+    border: 1px solid #e5e5e5;
+}
+.catalog-list li:hover{
+    box-shadow: 0 0 50px rgba(0, 0, 0, 0.5);
+}
+
+
+
+
+
+
+.catalog-category {
+color: #000000;
+font-family: 'PT Sans';
+font-weight: bold;
+font-size: 18px;
+    line-height: 20px;
+}
+.catalog-item-price b{
+    color: #999999;
+    font-weight: bold;
+font-size: 17px;
+    line-height: 18px;
+    text-decoration: line-through;
+    font-family: 'PT Sans';
+
+}  
+
+.button-price {
+    color:white;
+    font-weight: bold;
+font-size: 17px;
+    line-height: 18px;
+    font-family: 'PT Sans';
+    background-color: #ee3643;
+
+}  
+
+
+  
+
+  .filter{
+    font-family: 'PT Sans';  
+  }
+
+  
+  }
+  .button-buy{
+    color:white;
+    font-size: 14px;
+    line-height: 18px;
+    font-family: 'Cuprum';
+    background-color: #63a63e;
+    border-bottom: 1px solid #367315;
+  }
+
+  .button-buy:hover{
+      background-color: #5fbb2d;
+  }
+  .button-buy:active{
+    background-color: #518534;
+}
+
+.button-save:hover{
+    border: 2px solid #32425c;
+}
+
+.button-save:active{
+    color:#d0d2d6;
+    border: 2px solid #c1c6ce;
+}
+
+  .button-save{
+    color:#32425c;
+    font-size: 14px;
+    line-height: 18px;
+    font-family: 'Cuprum';
+    background-color:white;
+    border: 2px solid #63a63e;
+  }
+
+
+  .sort-panel-current {
+    color: #ee3643;
+      }
+
+ 
+    
+      
+  }
+
+   .user-navigation a,
+   .site-navigation a,
+   .search,
+  .main-footer,
+  .footer-navigation a{
+    color: white;
+     }
+
+   .visualy-hidden{
+       display: none;
+   }
+
+   .user-panel a,
+   .search{
+       font-size: 17px;
+       line-height: 18px;
+    
+   }
+
+   .user-navigation a,
+   .site-navigation a,
+   .footer-navigation a{
+       text-align: center;
+       vertical-align: middle;
+       border: none;
+   }
+
+   .order-button{
+       background-color: #5fbb2d;
+   }
+
+   .order-button:active{
+    background-color: #518534;
+    color: #b6c8ae;
+    }
+   
+    .user-panel a:active{
+        color: #a2a4a6;
+    }
+    .search:active{
+        color: #e0e1e3;
+    }
+
+    .nav-title{
+        font-size: 16px;
+        line-height: 23px;
+        color: #ee3643;
+        font-style: italic;
+    }
+    .button-call{
+        font: inherit;
+        color:#ee3643;
+        font-size: 21px;
+        line-height: 21px;
+        vertical-align: middle;
+        text-align: center;
+        font-family: 'Cuprum';
+    }
+    .addres-nav{
+        font-family: 'Cuprum';
+    }
+
+    .cart-button-red{
+        background-color: #ee3643;
+    }
+
+    .user-panel{
+        vertical-align: middle;
+        text-align: center;
+    }
+
+    .addres-nav{
+        font-size: 16px;
+        line-height: 24px;
+        color: #32425c;
+    }
+
+    .user-navigation-2 a{
+        color: black;
+        font-size: 21px;
+        line-height: 21px;
+        font-family: 'Cuprum';
+    }
+
+    .user-navigation-2 a:hover{
+        color: #ee3643;
+    }
+    .user-navigation-2 a:active{
+        color: #e7e7e7;
+    }
+
+
+
+    
+    
+
+  .site-navigation li:hover{
+        background-color: #293449;
+     }
+     
+     .site-navigation a:active{
+        color:#84888e;
+         background-color:#1d2739;
+        
+     }
+     .section-about h2,
+     .contacts h2{
+         font-size: 30px;
+         line-height: 30px;
+         font-family: 'PT Sans';
+     }
+     .section-about,
+     .contacts p{
+        font-size: 13px;
+        line-height: 24px;
+        font-family: 'PT Sans';
+    }
+    .trans-company {
+        font-size: 18px;
+        line-height: 20px;
+    }
+
+    .red-button{
+        background-color:#ee3643;
+        font-size: 14px;
+        line-height: 18px;
+        text-align: center;
+        vertical-align: middle;
+        color: white;
+        font-family: 'PT Sans';
+    }
+
+.red-button:hover{
+background-color: #ca2c37;
+}
+.red-button:active{
+    background-color: #ba2732;
+    }
+
+    .pagination-list a{
+        font-size: 13px;
+        line-height: 18px;
+        background-color: white;
+        border: 1px solid #e5e5e5;
+        font-family: 'PT Sans';
+        color: black;
+    }
+    .pagination-item-current a{
+        color: white;
+        
+        background-color: #ee3643;
+    }
+
+    .pagination-list a:hover{
+        border: 1px solid #bdc6ca;
+
+    }
+
+    .pagination-list a:active{
+        border: 1px solid #ee3643;
+
+    }
+
+    .about-drill h1{
+        font-size: 30px;
+        line-height: 30px;
+     font-family: "Cuprum";    
+    }
+
+    .about-drill p{
+        font-size: 13px;
+        line-height: 24px;
+       font-family: 'PT Sans';}
+    
+
+
+
+     .first-footer {
+        background-color: #32425c;
+        color:white;
+    }
+
+    .footer-navigation-2 a{
+        color: #ffd180;
+        font-family: 'Cuprum';
+    }
+
+
+    
+    .footer-feedback,
+    .footer-developed
+    {
+        color: #ffd180;
+        font-size: 16px;
+        line-height: 18px;
+        font-family: 'Cuprum';
+        
+    }
+
+    .footer-feedback:active,
+    .footer-developed:active{
+    color:#d13644;
+    }
+
+   .second-footer{
+    background-color: #293449;
+    color:white;
+   }
+
+   .footer-copyright {
+    font-size: 16px;
+    font-family: "Cuprum";
+    
+    line-height: 18px;
+    text-align: left;
+    
+  }
+
+  .footer-contacts,
+  .footer-navigation a{
+         font-size: 18px;
+        font-family: "Cuprum";
+       line-height: 24px;
+        text-align: left;
+        color: white;
+   }
+      
+  .footer-nav li:hover,
+  .footer-feedback:hover,
+    .footer-developed:hover{
+       text-decoration: underline;
+      
+  }
+
+.footer-navigation-2 a:active
+  {
+       color: #766d65;}
+
+       .footer-navigation a:active
+  {
+       color: #9ea5af;}
+
+ .social-button li {
+    color: #212a3a;
+}
+
+.footer-social li:hover,
+  .footer-social li:active{
+      background-color: #ee3643;
+      
+  }
+  
