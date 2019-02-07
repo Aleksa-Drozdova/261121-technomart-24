@@ -38,12 +38,43 @@ a
     list-style: none;
 }
 
+.normal-svg{
+    fill: white;
+    background-color: #ee3643;
+}
+
+
+
+.normal-svg:hover {
+    background-color: red;
+
+}
+.search:hover .normal-svg{
+    background-color: #ee3643;
+
+}
+
+.normal-svg:active {
+    background-color: #ba2732;
+
+}
+.footer-svg{
+    fill: white;
+    background-color: #ee3643;
+}
 .user-panel a,
 .site-navigation a
 {
     font-family: 'Cuprum','Arial', sans-serif;
 
     color: white;
+}
+
+.main-header,
+.about-drill,
+.title-catalog,
+.service-delivery{
+    background-color:#f3f7f9;
 }
 
 .user-navigation
@@ -80,11 +111,25 @@ a
 .user-data a:hover
 {
     color: #ee3643;
+    text-decoration: underline;
 }
 
 .user-data a:active
 {
     color: #e7e7e7;
+    text-decoration: underline;
+}
+
+.user-name:hover
+{
+    color: black !important;
+    text-decoration: none;
+}
+
+.user-name:active
+{
+    color: rgba(0, 0, 0, 0.3);;
+    text-decoration:none;
 }
 
 
@@ -112,6 +157,129 @@ a
     color: #32425c;
 }
 
+.tools-item:first-child,
+.tools-item:last-child{
+    background-color: #ffbf47;
+}
+
+.tools-item:nth-child(2){
+    background-color: #3bbce3;
+}
+
+.tools-item:nth-child(3){
+    background-color: #dc91d8;
+}
+.tools-item:nth-child(4){
+    background-color: #8ed78f;
+}
+
+.tools-category{
+    font-family: 'Cuprum','Arial', sans-serif;
+    font-size: 24px;
+    line-height: 30px;
+font-weight: bold;
+    
+    color:white;
+}
+
+.tools-category-text{
+    font-family: 'Cuprum','Arial', sans-serif;
+    font-size: 14px;
+    line-height: 18px;
+    
+    color:white;
+}
+
+.tools-category-button{
+    background-color: rgba(0, 0, 0, 0.1);
+
+}
+
+.tools-category-button:hover{
+    background-color: rgba(0, 0, 0, 0.2);
+
+}
+
+.tools-category-button:active{
+    background-color: rgba(0, 0, 0, 0.3);
+
+}
+
+
+
+.slider-title-text{
+    font-family: 'Cuprum','Arial', sans-serif;
+    font-size: 36px;
+    line-height: 36px;
+    font-weight: bold;
+    
+    color:white;
+}
+
+.slider-title-text-p{
+    font-family: 'Cuprum','Arial', sans-serif;
+    font-size: 18px;
+    line-height: 25px;
+    color:white;
+}
+
+.slider-title{
+    position:absolute;
+}
+
+.popular{
+    background-color: #f9f5f0;
+}
+
+.popular-title{
+    color: #32425c;
+    font-family: 'Cuprum','Arial', sans-serif;
+    font-size: 30px;
+    line-height: 30px;
+}
+
+.about-technomart{
+    color:black;
+    font-family: 'Cuprum','Arial', sans-serif;
+    font-size: 30px;
+    line-height: 30px;
+}
+
+.service-delivery p,
+.contacts p,
+.section-about p{
+    color:black;
+    font-family: 'PT Sans','Arial', sans-serif;
+    font-size: 13px;
+    line-height: 24px;
+
+}
+
+.trans-company{
+    color:black;
+    font-family: 'Cuprum','Arial', sans-serif;
+    font-size: 18px;
+    line-height: 20px;
+}
+
+.button-sdc{
+    background-color: #32425c;
+    color: white;
+}
+
+
+.delivery-title{
+    color:#32425c;
+    font-family: 'Cuprum','Arial', sans-serif;
+    font-size: 36px;
+    line-height: 36px; 
+}
+
+
+.service-delivery{
+    background-color: #f4f8fa;
+}
+
 .div-sort,
 .filter-line
 {
@@ -120,7 +288,14 @@ a
     line-height: 18px;
 
     color: #000;
+    background-color: #f7f3ec;
 }
+
+.range,
+.price-range{
+    background-color: #f7f3ec; 
+}
+
 .div-sort a
 {
     color: #b2b2b2;
@@ -158,7 +333,7 @@ form button
 {
     font-size: 13px;
     line-height: 18px;
-
+    font-family: 'PT Sans','Arial', sans-serif;
     border: 1px solid #e5e5e5;
 }
 .filter legend
@@ -423,12 +598,16 @@ form button
     color: white;
     background-color: #ee3643;
 }
+.catalog-item-image:active{
+    opacity: 0.3;
+}
 
-.red-button:hover
+
+.button-slider-text:hover
 {
     background-color: #ca2c37;
 }
-.red-button:active
+.button-slider-text:active
 {
     background-color: #ba2732;
 }
@@ -464,6 +643,7 @@ form button
     font-family: 'Cuprum','Arial', sans-serif;
     font-size: 30px;
     line-height: 30px;
+    color: black;
 }
 
 .about-drill p
@@ -471,9 +651,8 @@ form button
     font-family: 'PT Sans','Arial', sans-serif;
     font-size: 13px;
     line-height: 24px;
+    color: black;
 }
-
-
 
 
 .first-footer
@@ -488,7 +667,6 @@ form button
 
     color: #ffd180;
 }
-
 
 
 .footer-feedback,
@@ -571,3 +749,6 @@ form button
 {
     background-color: #ee3643;
 }
+
+
+
