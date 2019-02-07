@@ -90,7 +90,7 @@ a
 
 .breadcrumbs a
 {
-    font-family: 'Cuprum';
+    font-family: 'Cuprum', 'Arial', sans-serif;;
     font-size: 13px;
     line-height: 18px;
 
@@ -115,7 +115,7 @@ a
 .div-sort,
 .filter-line
 {
-    font-family: 'PT Sans';
+    font-family: 'PT Sans','Arial', sans-serif;
     font-size: 13px;
     line-height: 18px;
 
@@ -128,7 +128,7 @@ a
 
 .form
 {
-    font-family: 'PT Sans';
+    font-family: 'PT Sans','Arial', sans-serif;
     font-size: 15px;
     line-height: 20px;
 
@@ -180,7 +180,7 @@ form button
 
 .catalog-category
 {
-    font-family: 'PT Sans';
+    font-family: 'PT Sans','Arial', sans-serif;
     font-size: 18px;
     font-weight: bold;
     line-height: 20px;
@@ -189,7 +189,7 @@ form button
 }
 .catalog-item-price b
 {
-    font-family: 'PT Sans';
+    font-family: 'PT Sans','Arial', sans-serif;
     font-size: 17px;
     font-weight: bold;
     line-height: 18px;
@@ -201,7 +201,7 @@ form button
 
 .button-price
 {
-    font-family: 'PT Sans';
+    font-family: 'PT Sans','Arial', sans-serif;
     font-size: 17px;
     font-weight: bold;
     line-height: 18px;
@@ -212,7 +212,7 @@ form button
 
 .filter
 {
-    font-family: 'PT Sans';
+    font-family: 'PT Sans','Arial', sans-serif;
 }
 
 .button-buy
@@ -394,14 +394,14 @@ form button
 .section-about h2,
 .contacts h2
 {
-    font-family: 'PT Sans';
+    font-family: 'PT Sans','Arial', sans-serif;
     font-size: 30px;
     line-height: 30px;
 }
 .section-about,
 .contacts p
 {
-    font-family: 'PT Sans';
+    font-family: 'PT Sans','Arial', sans-serif;
     font-size: 13px;
     line-height: 24px;
 }
@@ -413,7 +413,7 @@ form button
 
 .red-button
 {
-    font-family: 'PT Sans';
+    font-family: 'PT Sans','Arial', sans-serif;
     font-size: 14px;
     line-height: 18px;
 
@@ -435,7 +435,7 @@ form button
 
 .pagination-list a
 {
-    font-family: 'PT Sans';
+    font-family: 'PT Sans','Arial', sans-serif;
     font-size: 13px;
     line-height: 18px;
 
@@ -468,7 +468,7 @@ form button
 
 .about-drill p
 {
-    font-family: 'PT Sans';
+    font-family: 'PT Sans','Arial', sans-serif;
     font-size: 13px;
     line-height: 24px;
 }
@@ -517,7 +517,7 @@ form button
     color: #d13644;
 }
 
-.footer-nav li:hover
+.footer-nav li:active
 {
     text-decoration: none !important;
 }
