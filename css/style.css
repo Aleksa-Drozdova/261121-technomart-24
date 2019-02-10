@@ -17,6 +17,7 @@ a
     text-decoration: none;
 }
 
+  
 
 .user-panel,
 .user-navigation-2,
@@ -41,45 +42,158 @@ a
 .normal-svg{
     fill: white;
     background-color: #ee3643;
+    border-bottom: 5px solid #b52933;
+    width: 220px;
+    height: 42px;
+    text-align: center;
+    margin: 0 auto;
+   
 }
-
-
+.normal-svg svg{
+  padding-bottom: 11px;
+  padding-top: 13px; 
+}
 
 .normal-svg:hover {
-    background-color: red;
+    background-color: red;}
 
-}
 .search:hover .normal-svg{
-    background-color: #ee3643;
-
-}
+    background-color: #ee3643;}
 
 .normal-svg:active {
-    background-color: #ba2732;
+    background-color: #ba2732;}
 
-}
 .footer-svg{
     fill: white;
     background-color: #ee3643;
+padding-left: 42px;
+padding-right: 42px;
+padding-top:21px;
+padding-bottom: 21px;
+border-bottom: 5px solid #b52933;
+
+display: block;
 }
-.user-panel a,
-.site-navigation a
+
+
+
+
+.first-footer{
+       width: auto;
+        padding-left: 130px;
+        padding-right:130px;
+}
+
+
+.navigation-logo{
+    width: 220px;
+    height: 47px;
+    margin-left: 129px;
+   
+}
+
+div .user-data{
+    width: 300px;
+    margin: 0;
+    padding: 0;
+    padding-left: 25px;
+}
+
+.user-data li
 {
+    display: inline;
+}
+
+
+.first-footer{
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+  .first-footer div{
+      display: flex;
+      flex-direction: column;
+  }
+
+  .first-footer div:first-child{
+      width: 352px;
+      height: 193px;
+  }
+
+  .first-footer div:last-child{
+    width: 600px;
+    height: 193px;
+}
+
+
+
+.user-navigation{
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.user-panel li{
+    display: inline;
+text-align: center;
+margin-left: 30px;
+height: 29px;
+
+    
+}
+
+div .user-panel{
+    margin: 0;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-right: 129px;
+    
+}
+
+.user-panel a,
+.site-navigation a{
     font-family: 'Cuprum','Arial', sans-serif;
 
-    color: white;
-}
+    color: white;}
 
+  .user-navigation-2 li{
+      display: inline;
+      background-color: white;
+      margin-left: 10px;
+      padding: 15px;
+  }  
+
+  .user-navigation-2{
+      padding: 0;
+  }
+
+  .main-header nav{
+      width:auto;
+      
+      padding-left: 130px;
+      padding-right: 130px;
+      padding-bottom: 60px;
+  }
+ 
 .main-header,
 .about-drill,
 .title-catalog,
 .service-delivery{
     background-color:#f3f7f9;
+background-repeat: repeat;
+
 }
+
+
 
 .user-navigation
 {
     background-color: #293449;
+    width: 100%;
+    margin-bottom: 12px;
+    height: 42px;
+    
 }
 .site-navigation
 {
@@ -96,16 +210,20 @@ a
     color: #32425c;
 }
 
-.user-data li:not(:first-child)
+.user-data li
 {
     font-size: 16px;
     line-height: 18px;
+    text-decoration: underline;
+    padding:15px;
+    
 }
 
-.user-data li:first-child
+.user-data p
 {
     font-size: 21px;
     line-height: 21px;
+   
 }
 
 .user-data a:hover
@@ -119,12 +237,11 @@ a
     color: #e7e7e7;
     text-decoration: underline;
 }
-
-.user-name:hover
-{
-    color: black !important;
-    text-decoration: none;
+.user-name{
+    background-color: white;
+    padding: 13px;
 }
+
 
 .user-name:active
 {
@@ -141,6 +258,96 @@ a
 
     color: #000;
 }
+
+.breadcrumbs {
+    padding: 0;
+    margin: 0;
+ 
+    /* Временно для сетки */
+    min-height: 60px;
+  }
+
+  .breadcrumbs li{
+      display: inline;
+  }
+
+  .catalog{
+      width: 700px;
+      height: 1050px;
+      margin:0px;
+      padding: 0;
+  }
+
+  .title-catalog {
+    margin-left: 130px;
+    margin-right: 130px;
+    margin-bottom: 20px;
+    padding: 20px;
+  
+  
+    /* Временно для сетки */
+    min-height: 42px;
+  }
+
+  .div-sort li{
+    padding: 0;
+    margin: 0;
+display: inline;
+  }
+
+  .filter{
+    width: 220px;
+
+    /* Временно для сетки */
+    min-height: 748px;
+    outline: 1px solid red;
+  }
+
+  .filter-catalog{
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      margin-bottom: 55px;
+   
+  }
+
+  .catalog-item {
+    width: 220px;
+    margin-bottom: 20px;
+    margin-right: 10px;
+  
+    /* Временно для сетки */
+    min-height: 316px;
+    outline: 1px solid red;
+  }
+  .catalog-item:nth-child(3n) {
+    margin-right: 0;
+  }
+
+  .catalog-list {
+    padding: 0;
+    margin: 0;
+  display: flex;
+  flex-wrap: wrap;
+  }
+
+  .pagination-list {
+    padding: 0;
+    margin: 0;
+  width: 283px;
+  height: 38px;
+  
+   
+    /* Временно для сетки */
+    min-height: 47px;
+  }
+
+  .pagination-list li{
+    display: inline;
+  }
+
+  
+
 .filter fieldset,
 .div-filter fieldset
 {
@@ -171,6 +378,7 @@ a
 }
 .tools-item:nth-child(4){
     background-color: #8ed78f;
+    
 }
 
 .tools-category{
@@ -243,6 +451,13 @@ font-weight: bold;
     font-family: 'Cuprum','Arial', sans-serif;
     font-size: 30px;
     line-height: 30px;
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    padding-left: 130px;
+    padding-right: 130px;
 }
 
 .service-delivery p,
@@ -255,11 +470,43 @@ font-weight: bold;
 
 }
 
+.index-columns{
+display: flex;
+justify-content: space-between;
+padding-left: 130px;
+padding-right: 130px;
+padding-top: 82px;
+padding-bottom: 86px;
+}
+
 .trans-company{
     color:black;
     font-family: 'Cuprum','Arial', sans-serif;
     font-size: 18px;
     line-height: 20px;
+}
+
+.trans-company-button{
+    padding-top: 14px;
+    padding-bottom: 14px;
+    padding-left: 40px;
+    padding-right: 40px;
+   
+}
+.trans-company li{
+    padding-bottom: 20px;
+    margin: 0;
+}
+
+.contacts-button{
+    padding-top: 14px;
+    padding-bottom: 14px;
+    padding-left: 64px;
+    padding-right: 59px;
+   
+}
+.map{
+    padding-bottom: 40px;
 }
 
 .button-sdc{
@@ -289,7 +536,13 @@ font-weight: bold;
 
     color: #000;
     background-color: #f7f3ec;
+    height: 38px;
 }
+.div-sort{
+    display: flex;
+    margin-bottom: 20px;
+}
+
 
 .range,
 .price-range{
@@ -458,6 +711,17 @@ form button
     font-size: 17px;
     line-height: 18px;
 }
+.search{
+    height: 42px;
+    background: none!important;
+        background-color: transparent!important;
+        border: none;
+        color: white;
+}
+.search-form{
+    padding-left: 17px; 
+   
+}
 
 .user-navigation a,
 .site-navigation a,
@@ -469,9 +733,70 @@ form button
     border: none;
 }
 
+
+
+
+.addres-nav
+{
+    font-family: 'Cuprum','Arial', sans-serif;
+    text-align: center;
+    font-size: 14px;
+    line-height: 24px;
+
+    color: #32425c;
+    margin: 0;
+    
+}
+
+
+.info-nav-title{
+    display: flex;
+    padding-left: 129px;
+    padding-right: 129px;
+    justify-content: space-between;
+    
+}
+
+
+.info-nav-title div:first-child{
+    padding-left: 53px;
+    padding-right: 35px;
+    width: 300px;
+    margin: 0;
+}
+.info-nav-title div:last-child{
+    width: 300px;
+    padding-left: 19px;
+    padding-right: 0;
+    margin: 0;
+}
+
+.login-register{
+    width: 342px;
+    padding-left: 20px;
+    padding-right: 51px;
+    margin: 0;
+}
+
+.site-navigation li{
+    display: inline;
+ vertical-align:middle;
+ padding-left: 30px;
+ padding-right: 30px;
+}
+
+.site-navigation {
+    padding-left: 22px;
+    padding-right: 25px;
+    padding-top: 22px;
+    padding-bottom: 21px;
+    border-bottom: 5px solid #32425c;
+}
+
 .order-button
 {
     background-color: #5fbb2d;
+   height: auto;
 }
 
 .order-button:active
@@ -484,6 +809,8 @@ form button
 {
     color: #a2a4a6;
 }
+
+
 .search:active
 {
     color: #e0e1e3;
@@ -505,14 +832,22 @@ form button
     line-height: 21px;
 
     text-align: center;
-    vertical-align: middle;
+    
 
     color: #ee3643;
+
+    border: 3px solid white;
+    padding-left: 12px;
+    padding-right: 47px;
+    padding-top: 12px;
+    padding-bottom: 8px;
+    
 }
-.addres-nav
-{
-    font-family: 'Cuprum','Arial', sans-serif;
+.button-call svg{
+    padding-right: 42px;
 }
+
+
 
 .cart-button-red
 {
@@ -523,15 +858,9 @@ form button
 {
     text-align: center;
     vertical-align: middle;
+    
 }
 
-.addres-nav
-{
-    font-size: 16px;
-    line-height: 24px;
-
-    color: #32425c;
-}
 
 .user-navigation-2 a
 {
@@ -580,11 +909,12 @@ form button
     font-size: 13px;
     line-height: 24px;
 }
-.trans-company
-{
-    font-size: 18px;
-    line-height: 20px;
+
+.contacts p:last-child{
+    margin-bottom: 0;
+    padding-bottom: 0;
 }
+
 
 .red-button
 {
@@ -621,6 +951,9 @@ form button
     color: black;
     border: 1px solid #e5e5e5;
     background-color: white;
+    width: 38px;
+      height: 38px;
+      padding: 14px;
 }
 .pagination-item-current a
 {
@@ -654,6 +987,11 @@ form button
     color: black;
 }
 
+.about-drill{
+    padding-top: 68px;
+    padding-bottom: 76px;
+    margin: 0;
+}
 
 .first-footer
 {
@@ -705,6 +1043,11 @@ form button
 {
     color: white;
     background-color: #293449;
+    width: auto;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 130px;
+    padding-right: 130px;
 }
 
 .footer-copyright
@@ -743,11 +1086,20 @@ form button
 {
     color: #212a3a;
 }
+.footer-social li{
+    display: inline;
+}
 
 .footer-social a:hover,
 .footer-social a:active
 {
     background-color: #ee3643;
+}
+
+.footer-navigation li,
+.footer-navigation-2 li{
+   margin: 30px;
+    display: inline;
 }
 
 
