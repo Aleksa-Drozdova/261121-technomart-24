@@ -300,7 +300,7 @@ display: inline;
 
     /* Временно для сетки */
     min-height: 748px;
-    outline: 1px solid red;
+   
   }
 
   .filter-catalog{
@@ -318,7 +318,7 @@ display: inline;
   
     /* Временно для сетки */
     min-height: 316px;
-    outline: 1px solid red;
+   
   }
   .catalog-item:nth-child(3n) {
     margin-right: 0;
