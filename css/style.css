@@ -71,18 +71,14 @@ padding-right: 42px;
 padding-top:21px;
 padding-bottom: 21px;
 border-bottom: 5px solid #b52933;
-
-display: block;
+width: 138px ;
+height:23px ;
 }
 
 
 
 
-.first-footer{
-       width: auto;
-        padding-left: 130px;
-        padding-right:130px;
-}
+
 
 
 .navigation-logo{
@@ -94,6 +90,7 @@ display: block;
 
 div .user-data{
     width: 300px;
+    
     margin: 0;
     padding: 0;
     padding-left: 25px;
@@ -114,6 +111,7 @@ div .user-data{
   .first-footer div{
       display: flex;
       flex-direction: column;
+      
   }
 
   .first-footer div:first-child{
@@ -131,24 +129,32 @@ div .user-data{
 .user-navigation{
     display: flex;
     justify-content: space-between;
+    background-color: #293449;
+    width: 100%;
+    margin-bottom: 45px;
+    height: 42px;
     
 }
 
 .user-panel li{
     display: inline;
-text-align: center;
-margin-left: 30px;
-height: 29px;
+    height: 42px;
 
+margin-left: 30px;
+
+padding-top: 13px;
+padding-bottom: 12px;
+padding-left: 20px;
+padding-right: 20px;
     
 }
 
-div .user-panel{
+.user-panel{
     margin: 0;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    margin-right: 129px;
+    padding: 0;
     
+    
+    height: 42px;
 }
 
 .user-panel a,
@@ -161,18 +167,17 @@ div .user-panel{
       display: inline;
       background-color: white;
       margin-left: 10px;
-      padding: 15px;
+      padding-top: 14px;
+      padding-bottom: 14px;
+      padding-left: 25px;
+      padding-right: 25px;
   }  
 
-  .user-navigation-2{
-      padding: 0;
-  }
+ 
 
   .main-header nav{
       width:auto;
-      
-      padding-left: 130px;
-      padding-right: 130px;
+     
       padding-bottom: 60px;
   }
  
@@ -187,18 +192,27 @@ background-repeat: repeat;
 
 
 
-.user-navigation
-{
-    background-color: #293449;
-    width: 100%;
-    margin-bottom: 12px;
-    height: 42px;
-    
-}
 .site-navigation
 {
+    margin: 0;
+    padding: 0;
     background-color: #32425c;
+    padding-left: 22px;
+    padding-right: 25px;
+    border-bottom: 5px solid #293449;
+    padding-top: 20px;
+    padding-bottom: 20px;
+ 
 }
+.site-navigation li{
+    margin: 0;
+    padding: 0;
+    display: inline;
+ vertical-align:middle;
+ padding-left: 30px;
+ padding-right: 30px;
+}
+
 
 .user-data a
 {
@@ -258,24 +272,38 @@ background-repeat: repeat;
 
     color: #000;
 }
+.breadcrumbs-div{
+    height: 59px;
 
+}
 .breadcrumbs {
     padding: 0;
     margin: 0;
  
-    /* Временно для сетки */
-    min-height: 60px;
+  
   }
 
   .breadcrumbs li{
       display: inline;
   }
 
+.filters-left ul{
+    padding: 0;
+    margin: 0;
+}
+
   .catalog{
       width: 700px;
       height: 1050px;
       margin:0px;
       padding: 0;
+  }
+
+  .catalog-index{
+    width: 940px;
+    height: 319px;
+    margin:0px;
+    padding: 0;
   }
 
   .title-catalog {
@@ -331,6 +359,8 @@ display: inline;
   flex-wrap: wrap;
   }
 
+ 
+
   .pagination-list {
     padding: 0;
     margin: 0;
@@ -363,6 +393,22 @@ display: inline;
 
     color: #32425c;
 }
+.tools-list{
+    display: flex;
+    margin: 0;
+    padding: 0;
+    margin-top: 59px;
+}
+
+.tools-item{
+    margin: 0;
+    padding: 0;
+    width: 300px;
+    height: 123px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
 
 .tools-item:first-child,
 .tools-item:last-child{
@@ -388,7 +434,11 @@ display: inline;
 font-weight: bold;
     
     color:white;
+    margin: 0;
+    padding: 0;
+
 }
+
 
 .tools-category-text{
     font-family: 'Cuprum','Arial', sans-serif;
@@ -396,6 +446,13 @@ font-weight: bold;
     line-height: 18px;
     
     color:white;
+}
+.tools-category-button{
+    padding:0;
+    margin: 0;
+    padding: 13px;
+    padding-left: 24px;
+    padding-right: 24px;
 }
 
 .tools-category-button{
@@ -437,6 +494,10 @@ font-weight: bold;
 
 .popular{
     background-color: #f9f5f0;
+    display: flex;
+    padding-left: 30px;
+    padding-right: 24px;
+    margin-bottom: 20px;
 }
 
 .popular-title{
@@ -445,6 +506,8 @@ font-weight: bold;
     font-size: 30px;
     line-height: 30px;
 }
+
+
 
 .about-technomart{
     color:black;
@@ -473,13 +536,13 @@ font-weight: bold;
 .index-columns{
 display: flex;
 justify-content: space-between;
-padding-left: 130px;
-padding-right: 130px;
 padding-top: 82px;
 padding-bottom: 86px;
 }
 
 .trans-company{
+    margin: 0;
+    padding: 0;
     color:black;
     font-family: 'Cuprum','Arial', sans-serif;
     font-size: 18px;
@@ -522,9 +585,31 @@ padding-bottom: 86px;
     line-height: 36px; 
 }
 
-
 .service-delivery{
     background-color: #f4f8fa;
+    padding-top: 67px;
+  
+}
+.s-d-c{
+    display: flex;
+}
+
+.service-delivery-div{
+    width: 240px;
+    height: 188px;
+    padding: 0;
+    margin: 0;
+}
+.service-delivery-div-2{
+    width: 281px;
+}
+.section-service-buttons{
+    margin: 0;
+    padding: 0;
+}
+.about-size{
+    width: 400px;
+    margin-bottom: 37px;
 }
 
 .div-sort,
@@ -562,6 +647,15 @@ padding-bottom: 86px;
 
     color: black;
 }
+
+.sort-panel{
+    margin: 0;
+    padding: 0;
+}
+.sort-panel li{
+    float:right;
+    padding-left: 64px;}
+
 .sort-panel a
 {
     text-decoration: underline dashed ;
@@ -597,6 +691,8 @@ form button
 
     color: #000;
 }
+
+
 .catalog-list li
 {
     border: 1px solid #e5e5e5;
@@ -704,7 +800,11 @@ form button
 {
     display: none;
 }
-
+nav{
+    margin: 0;
+    padding: 0;
+   
+}
 .user-panel a,
 .search
 {
@@ -754,6 +854,7 @@ form button
     padding-left: 129px;
     padding-right: 129px;
     justify-content: space-between;
+    margin-bottom: 42px;
     
 }
 
@@ -761,37 +862,29 @@ form button
 .info-nav-title div:first-child{
     padding-left: 53px;
     padding-right: 35px;
-    width: 300px;
+   
+    height: 71px;
     margin: 0;
 }
-.info-nav-title div:last-child{
-    width: 300px;
-    padding-left: 19px;
-    padding-right: 0;
+
+.contact-nav{
     margin: 0;
+    padding: 0;
+   
+    height: 71px;
 }
+
 
 .login-register{
-    width: 342px;
-    padding-left: 20px;
-    padding-right: 51px;
     margin: 0;
+    padding: 0;
+   
+    height: 71px;
+    
 }
 
-.site-navigation li{
-    display: inline;
- vertical-align:middle;
- padding-left: 30px;
- padding-right: 30px;
-}
 
-.site-navigation {
-    padding-left: 22px;
-    padding-right: 25px;
-    padding-top: 22px;
-    padding-bottom: 21px;
-    border-bottom: 5px solid #32425c;
-}
+
 
 .order-button
 {
@@ -837,10 +930,10 @@ form button
     color: #ee3643;
 
     border: 3px solid white;
-    padding-left: 12px;
+    padding-left:11px;
     padding-right: 47px;
-    padding-top: 12px;
-    padding-bottom: 8px;
+    padding-top: 10px;
+    padding-bottom: 7px;
     
 }
 .button-call svg{
@@ -854,12 +947,6 @@ form button
     background-color: #ee3643;
 }
 
-.user-panel
-{
-    text-align: center;
-    vertical-align: middle;
-    
-}
 
 
 .user-navigation-2 a
@@ -927,7 +1014,22 @@ form button
 
     color: white;
     background-color: #ee3643;
+    margin: 0;
+    padding: 0;
+    padding-top:13px;
+    padding-bottom:13px;
 }
+
+.popular-button{
+padding-left: 55px;
+padding-right: 55px;
+}
+
+.popular-button-2{
+    padding-left: 70px;
+    padding-right: 70px;
+    }
+
 .catalog-item-image:active{
     opacity: 0.3;
 }
@@ -1046,8 +1148,6 @@ form button
     width: auto;
     display: flex;
     justify-content: space-between;
-    padding-left: 130px;
-    padding-right: 130px;
 }
 
 .footer-copyright
@@ -1070,7 +1170,14 @@ form button
 
     color: white;
 }
-
+.footer-navigation{
+    margin: 0;
+    padding: 0;
+}
+.footer-nav{
+    margin: 0;
+    padding: 0;
+}
 
 .footer-navigation-2 a:active
 {
@@ -1086,9 +1193,18 @@ form button
 {
     color: #212a3a;
 }
+
+.footer-social{
+    margin: 0;
+    padding: 0;
+}
+
 .footer-social li{
     display: inline;
+    
 }
+
+
 
 .footer-social a:hover,
 .footer-social a:active
@@ -1101,6 +1217,10 @@ form button
    margin: 30px;
     display: inline;
 }
-
+.footer-navigation ,
+.footer-navigation-2{
+    margin: 0;
+    padding: 0;
+}
 
 
