@@ -75,16 +75,25 @@ width: 138px ;
 height:23px ;
 }
 
-
-
-
-
-
-
 .navigation-logo{
     width: 220px;
     height: 47px;
-    margin-left: 129px;
+   
+   
+}
+
+.search::before{
+    content: "";
+    width: 17px;
+    height: 17px;
+    background-color: #000;
+    position: absolute;
+    top: 28;
+    left: 24;
+    background-image: url(img/icon-search.svg);
+    background-repeat: no-repeat;
+    background-position: 0 0;
+    fill: white;
    
 }
 
@@ -129,32 +138,38 @@ div .user-data{
 .user-navigation{
     display: flex;
     justify-content: space-between;
+
     background-color: #293449;
-    width: 100%;
+   
     margin-bottom: 45px;
     height: 42px;
     
 }
 
 .user-panel li{
-    display: inline;
+   margin: 0;
+   padding: 0;
     height: 42px;
 
-margin-left: 30px;
 
-padding-top: 13px;
-padding-bottom: 12px;
 padding-left: 20px;
 padding-right: 20px;
-    
+
+}
+
+.user-panel a{
+    display: block;
+    padding: 12px 0 ;
 }
 
 .user-panel{
     margin: 0;
     padding: 0;
-    
-    
-    height: 42px;
+    display: flex;
+   
+    display: flex;
+flex-wrap: wrap;
+width: 420px;
 }
 
 .user-panel a,
@@ -173,7 +188,7 @@ padding-right: 20px;
       padding-right: 25px;
   }  
 
- 
+
 
   .main-header nav{
       width:auto;
@@ -197,20 +212,26 @@ background-repeat: repeat;
     margin: 0;
     padding: 0;
     background-color: #32425c;
-    padding-left: 22px;
-    padding-right: 25px;
+   
     border-bottom: 5px solid #293449;
-    padding-top: 20px;
-    padding-bottom: 20px;
- 
+    display: flex;
+    justify-content: space-between;
+ min-width: 940px;
+}
+
+.site-navigation a{
+    display: block;
 }
 .site-navigation li{
     margin: 0;
     padding: 0;
-    display: inline;
- vertical-align:middle;
- padding-left: 30px;
- padding-right: 30px;
+    padding-left: 22px;
+    padding-right: 25px;
+    
+    padding-top: 20px;
+    padding-bottom: 20px;
+   
+
 }
 
 
@@ -836,6 +857,7 @@ nav{
 
 
 
+
 .addres-nav
 {
     font-family: 'Cuprum','Arial', sans-serif;
@@ -851,10 +873,11 @@ nav{
 
 .info-nav-title{
     display: flex;
-    padding-left: 129px;
-    padding-right: 129px;
+   
     justify-content: space-between;
     margin-bottom: 42px;
+       
+    min-height: 71px;
     
 }
 
@@ -863,26 +886,23 @@ nav{
     padding-left: 53px;
     padding-right: 35px;
    
-    height: 71px;
+display: block;
+
     margin: 0;
 }
 
 .contact-nav{
     margin: 0;
     padding: 0;
-   
-    height: 71px;
+   display: block;
 }
 
 
 .login-register{
     margin: 0;
     padding: 0;
-   
-    height: 71px;
     
 }
-
 
 
 
@@ -928,6 +948,7 @@ nav{
     
 
     color: #ee3643;
+    display: block;
 
     border: 3px solid white;
     padding-left:11px;
@@ -947,7 +968,11 @@ nav{
     background-color: #ee3643;
 }
 
-
+.user-navigation-2{
+    display: flex;
+    justify-content: space-between;
+    min-width: 283px;
+}
 
 .user-navigation-2 a
 {
@@ -956,6 +981,8 @@ nav{
     line-height: 21px;
 
     color: black;
+
+    display: block;
 }
 
 .user-navigation-2 a:hover
@@ -1106,6 +1133,8 @@ padding-right: 55px;
     font-family: 'Cuprum','Arial', sans-serif;
 
     color: #ffd180;
+    display: block;
+    margin: 30px;
 }
 
 
@@ -1157,6 +1186,10 @@ padding-right: 55px;
     line-height: 18px;
 
     text-align: left;
+    padding: 15px;
+}
+.develope {
+    padding: 15px;
 }
 
 .footer-contacts,
@@ -1170,9 +1203,19 @@ padding-right: 55px;
 
     color: white;
 }
+
 .footer-navigation{
     margin: 0;
     padding: 0;
+    display: flex;
+   
+}
+.footer-navigation a{
+    display: block;
+  
+}
+.footer-navigation li{
+    margin: 30px;
 }
 .footer-nav{
     margin: 0;
@@ -1197,6 +1240,7 @@ padding-right: 55px;
 .footer-social{
     margin: 0;
     padding: 0;
+    padding:31px;
 }
 
 .footer-social li{
@@ -1212,15 +1256,12 @@ padding-right: 55px;
     background-color: #ee3643;
 }
 
-.footer-navigation li,
-.footer-navigation-2 li{
-   margin: 30px;
-    display: inline;
-}
+
 .footer-navigation ,
 .footer-navigation-2{
     margin: 0;
     padding: 0;
+   display: flex;
 }
 
 
