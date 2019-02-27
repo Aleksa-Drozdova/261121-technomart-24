@@ -130,80 +130,73 @@
 
   <main>
     <section class="tools container">
-      <ul class="tools-list">
+      <div class="tools-list">
         <!--первая секция-->
-        <li class="tools-item">
+        <div class="tools-item">
+          <a href="materials.html">
+              <div class="flag-materials flag-new">новинка</div>
+            <h4>
+              <span class="tools-category">Материалы</span>
+            </h4>
+          </a>
+          <p class="tools-category-button ">
+            <a class="tools-category-text icon-1" href="materials.html">НА ЛЮБОЙ ВКУС</a>
+          </p>
 
-          <div>
-            <a href="materials.html">
-              <h4>
-                <span class="tools-category">Материалы</span>
-              </h4>
-            </a>
-            <p class="tools-category-button ">
-              <a class="tools-category-text icon-1" href="materials.html">НА ЛЮБОЙ ВКУС</a>
-            </p>
-          </div>
-
-        </li>
+        </div>
         <!--вторая секция-->
-        <li class="tools-item">
+        <div class="tools-item">
+           
+          <a href="equipments.html">
+            <h4>
+              <span class="tools-category">Инструмент</span>
+            </h4>
+          </a>
+          <p class="tools-category-button">
+            <a class="tools-category-text icon-2" href="equipments.html">НА ВСЕ СЛУЧАИ</a>
+          </p>
+        </div>
 
-          <div>
-            <a href="equipments.html">
-              <h4>
-                <span class="tools-category">Инструмент</span>
-              </h4>
-            </a>
-            <p class="tools-category-button">
-              <a class="tools-category-text icon-2" href="equipments.html">НА ВСЕ СЛУЧАИ</a>
-            </p>
-          </div>
-
-        </li>
         <!--третья секция-->
-        <li class="tools-item">
-          <div>
-            <a href="tools.html">
-              <h4>
-                <span class="tools-category">Техника</span>
-              </h4>
-            </a>
-            <p class="tools-category-button">
-              <a class="tools-category-text icon-3" href="tools.html">ДЛЯ СТРОЙКИ</a>
-            </p>
-          </div>
+        <div class="tools-item">
+          <a href="tools.html">
+            <h4>
+              <span class="tools-category">Техника</span>
+            </h4>
+          </a>
+          <p class="tools-category-button">
+            <a class="tools-category-text icon-3" href="tools.html">ДЛЯ СТРОЙКИ</a>
+          </p>
+        </div>
+      </div>
 
-        </li>
-
-        <li class="slideshow-container">
-          <div>
-            <div class="slider">
-              <div class="slider-title">
-                <h3 class="slider-title-text">ДРЕЛИ</h3>
-                <p class="slider-title-text-p">Соседям на радость!</p>
-              </div>
-              <div class="numbertext visualy-hidden">1 / 2</div>
-              <img src="img/slider-1.jpg" width="621" height="266" alt="Фото дрели">
-              <div class="button-slider">
-                <a class="red-button" href="catalog.html">ОТКРЫТЬ КАТАЛОГ</a>
-              </div>
-              <div class="previous-next-button">
-                <a class="prev" onclick="plusSlides(-1)"></a>
-                <a class="next" onclick="plusSlides(1)"></a>
-              </div>
-              <!-- The dots/circles -->
-              <div style="text-align:center">
-                <span class="dot" onclick="currentSlide(1)">D</span>
-                <span class="dot" onclick="currentSlide(2)"></span>
-              </div>
-            </div>
+      <!--слайдер-->
+      <div class="tools-list">
+        <div class="slider">
+          <div class="slider-title">
+            <h3 class="slider-title-text">ДРЕЛИ</h3>
+            <p class="slider-title-text-p">Соседям на радость!</p>
           </div>
-        </li>
+          <div class="numbertext visualy-hidden">1 / 2</div>
+          <img src="img/slider-1.jpg" width="621" height="266" alt="Фото дрели">
+          <div class="button-slider">
+            <a class="red-button" href="catalog.html">ОТКРЫТЬ КАТАЛОГ</a>
+          </div>
+          <div class="previous-next-button">
+            <a class="prev" onclick="plusSlides(-1)"></a>
+            <a class="next" onclick="plusSlides(1)"></a>
+          </div>
+          <!-- The dots/circles -->
+          <div style="text-align:center">
+            <span class="dot" onclick="currentSlide(1)">D</span>
+            <span class="dot" onclick="currentSlide(2)"></span>
+          </div>
+        </div>
+
         <!--пятая секция-->
-        <li class="tools-item">
+        <div class="after-slider">
+          <div class="tools-item">
 
-          <div>
             <a href="catalog.html">
               <h4>
                 <span class="tools-category">Скидки 50%</span>
@@ -214,23 +207,19 @@
             </p>
           </div>
 
-        </li>
-        <!--шестая секция-->
-        <!-- <li class="tools-item">
-          
-            <div>
-              <a href="delivery.html">
+          <!-- шестая секция-->
+          <div class="tools-item">
+            <a href="delivery.html">
               <h4>
                 <span class="tools-category">Доставка</span>
               </h4>
-              </a>
-              <p class="tools-category-button">
-                <a class="tools-category-text icon-5" href="delivery.html">БЕСПЛАТНО</a>
-              </p>
-            </div>
-          
-        </li> -->
-      </ul>
+            </a>
+            <p class="tools-category-button">
+              <a class="tools-category-text icon-5" href="delivery.html">БЕСПЛАТНО</a>
+            </p>
+          </div>
+        </div>
+      </div>
       <!-- четвертая секция- слайд -->
 
       <!--слайдер 2-->
@@ -497,7 +486,7 @@
       <section class="section-about">
         <h2 class="about-technomart">КОМПАНИЯ «ТЕХНОМАРТ»</h2>
         <p>
-          Настоящий мужской шоппинг начинается здесь! Огромный выбор товаров для ремонта и 
+          Настоящий мужской шоппинг начинается здесь! Огромный выбор товаров для ремонта и
           строительства не оставит равнодушными любителей сэкономить на гастарбайтерах.
         </p>
         <p>
@@ -514,7 +503,7 @@
       <section class="contacts">
         <h2 class="about-technomart">КОНТАКТЫ</h2>
         <p>
-          Вы можете забрать товар сами, 
+          Вы можете забрать товар сами,
           заехав в наш офис:
         </p>
         <img class="map" src="img/map.jpg" alt="Карта проезда">

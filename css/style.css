@@ -74,16 +74,16 @@ a
     background-color: #ee3643;
     border-bottom: 5px solid #b52933;
     width: 220px;
-    height: 42px;
+    min-height: 42px;
     text-align: center;
     margin: 0 auto;
     
    
 }
 .normal-svg svg{
-  padding-bottom: 12px;
-  padding-top: 12px; 
-  height: 18px;
+  padding-bottom: 8px;
+  padding-top: 14px; 
+  height: 17.4px;
 }
 
 .normal-svg:hover {
@@ -109,14 +109,15 @@ height:23px ;
 
 .navigation-logo{
     width: 220px;
-    height: 47px;  
+    min-height: 47px;  
 }
 
 .search-div{
     margin: 0;
     padding: 0;
     display: block;
-    width: 260px;
+   
+    min-height: 42px;
 }
 
 
@@ -188,30 +189,24 @@ margin-bottom: 35px;
     
 }
 
-.user-panel li{
-    margin: 0;
-    padding: 0;
- }
+
 .user-panel li:nth-child(1),
 .user-panel li:nth-child(3){
    margin: 0;
    padding: 0;
   
-   width: 150px;
-   height: 42px;
+   min-width: 150px;
+   min-height: 42px;
 }
 .user-panel li:nth-child(2){
     margin: 0;
     padding: 0;
-    width: 160px;
-    height: 42px;
+    min-width: 160px;
+    min-height: 42px;
  }
  
-
-
 .bookmarks-button{
     margin: 0;
-    padding: 0;
     display: block;
     padding: 12px 0 ;
     padding-left: 51px;
@@ -257,17 +252,16 @@ margin-bottom: 35px;
 
  .cart-button{
     margin: 0;
-    padding: 0;
     display: block;
     padding: 12px 0 ;
      padding-left:56px;
-     padding-right: 30px;
+     padding-right: 28px;
      box-sizing: border-box;
      position: relative;
   }
   .order-button a{
     margin: 0;
-    padding: 0;
+    
     display: block;
     padding: 12px 0 ;
      padding-left: 20px;
@@ -288,10 +282,8 @@ width: 460px;
 {
     font-family: 'Cuprum','Arial', sans-serif;
 
-    color: white;
     font-weight: 200;
-    font-size: 21px;
-    line-height: 21px;
+    
 }
 
   .user-navigation-2 li:nth-child(1){
@@ -532,8 +524,8 @@ padding-top: 8px;
     height: 13px;
 
     position: absolute;
-    top: 5px;
-    left: 17px;
+    top: 23px;
+    left: 14px;
 
   
     background-image: url(img/icon-right-small.svg);
@@ -697,7 +689,7 @@ padding: 10px 0;
   .catalog-item-image img {
     max-width: 100%;
   }
-  .catalog-item .flag {
+.flag {
     position: absolute;
     top: -1px;
     right: -1px;
@@ -709,8 +701,19 @@ padding: 10px 0;
     overflow: hidden;
     z-index: 20;
   }
-
-  .catalog-item .flag-new {
+.flag-materials{
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    
+    width: 60px;
+    height: 60px;
+    
+    text-indent: -1000px;
+    overflow: hidden;
+    z-index: 20;
+  }
+ .flag-new {
   background: url("img/new-flag.png") no-repeat 0 0;
 }
  
@@ -742,38 +745,32 @@ padding: 10px 0;
     margin: 0;
     padding:0;
 }
-
+ .tools{
+    margin-top: 59px;
+    margin-bottom: 33px;
+}
 .tools-list{
     display: flex;
     margin: 0;
     padding: 0;
-    margin-top: 59px;
+    /* margin-top: 59px; */
     flex-wrap: wrap;
     justify-content: space-between;
-    margin-bottom: 34px;
-}
-.tools-list div{
-margin: 0;
-padding: 0;
-
-padding-left: 21px;
-padding-right: 140px;
+  
 }
 
 .tools-item{
     margin: 0;
     padding: 0;
-    width: 300px;
+    width: 139px;
     height: 123px;
     margin-bottom: 20px;
-}
-.slideshow-container div{
-    margin: 0;
-    padding: 0;
+    padding-left: 21px;
+padding-right: 140px;
+position: relative;
 }
 
-.tools-item:first-child,
-.tools-item:last-child{
+.tools-item:first-child{
     background-color: #ffbf47;
 }
 
@@ -784,9 +781,11 @@ padding-right: 140px;
 .tools-item:nth-child(3){
     background-color: #dc91d8;
 }
-.tools-item:nth-child(5){
-    background-color: #8ed78f;
-    
+.after-slider .tools-item:first-child{
+    background-color: #8ed78f; 
+}
+.after-slider .tools-item:last-child{
+    background-color:  #ffbf47;
 }
 
 .tools-category{
@@ -872,8 +871,8 @@ font-weight: bold;
     height: 65px;
    
     position: absolute;
-    top: -50px;
-    left: 150px;
+    top: -30px;
+    left: 167px;
     background-image: url(img/icon-5.svg);
     background-repeat: no-repeat;
     background-position: 0 0;  
@@ -951,7 +950,16 @@ font-weight: bold;
 }
 .slider{
     position: relative;
+    top: 0;
+    left: 0;
+
+    width: 621px;
+    height: auto;
 }
+.after-slider{
+    width: 300px;
+}
+
 .button-slider .red-button{
     padding-left: 49px;
     padding-right: 45px;
