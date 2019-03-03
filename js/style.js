@@ -111,14 +111,14 @@
     });
     
 
-    // SLIDER S-D-C
-    // var link = document.querySelector(".warranty-button");
+    // // SLIDER S-D-C
+    // var slide = document.querySelector(".warranty-button");
     // var slidelink = document.querySelector("warranty");)
 
-    // link.addEventListener("click", function (evt) {
+    // slide.addEventListener("click", function (evt) {
     //   evt.preventDefault();
     //   slidelink.classList.add("show-slide");
     // });
 
-    // SLIDER
+    // // SLIDER
     

@@ -70,7 +70,6 @@
             <a href="order.html">Оформить заказ</a>
           </li>
         </ul>
-
       </div>
     </div>
     <div class="info-nav-title container ">
@@ -149,9 +148,9 @@
     <div class="filter-catalog container">
       <!--поле для фильтра-->
       <section class="filter">
-        <form class="form-first" method="get" action="https://echo.htmlacademy.ru">
+        <form method="get" action="https://echo.htmlacademy.ru">
           <p class="filter-line "> ФИЛЬТР: </p>
-          <fieldset>
+          <fieldset class="form-first">
             <legend>ЦЕНА:</legend>
             <h2 class="visualy-hidden">ЦЕНА</h2>
             <p class="range">
@@ -159,59 +158,60 @@
             </p>
             <div class="price-row">
               <input class="price-range" type="number" min="0" max="30000" step="1" value="0">
+              <p></p>
               <input class="price-range" type="number" min="0" max="30000" step="1" value="30000">
             </div>
           </fieldset>
         </form>
 
+        <form method="get" action="https://echo.htmlacademy.ru">
+          <fieldset class="form-first">
+            <legend> ПРОИЗВОДИТЕЛИ:</legend>
+            <h2 class="visualy-hidden">Производители товаров</h2>
+            <ul class="filter-flex">
+              <li class="form">
+                <input class="visualy-hidden filter-input-checkbox" type="checkbox" checked name="brand" id="bosh">
+                <label for="bosh">BOSCH </label>
+              </li>
+              <li class="form">
+                <input class="visualy-hidden filter-input-checkbox" type="checkbox" name="brand" id="interscol">
+                <label for="interscol">ИНТЕРСКОЛ</label>
+              </li>
+              <li class="form">
+                <input class="visualy-hidden filter-input-checkbox" type="checkbox" name="brand" id="makita">
+                <label for="makita"> MAKITA</label>
+              </li>
+              <li class="form">
+                <input class="visualy-hidden filter-input-checkbox" type="checkbox" checked name="brand" id="dewalt">
+                <label for="dewalt">DEWALT</label>
+              </li>
+              <li class="form">
+                <input class="visualy-hidden filter-input-checkbox" type="checkbox" name="brand" id="hitachi">
+                <label for="hitachi">HITACHI </label>
+              </li>
+            </ul>
+          </fieldset>
 
-        <div class="filters-left">
-          <form method="get" action="https://echo.htmlacademy.ru">
-            <fieldset>
-              <legend> ПРОИЗВОДИТЕЛИ:</legend>
-              <h2 class="visualy-hidden">Производители товаров</h2>
-              <ul class="filter-flex">
-                <li class="form">
-                  <input type="checkbox" checked name="brand" id="bosh">
-                  <label for="bosh">BOSH </label>
-                </li>
-                <li class="form">
-                  <input type="checkbox" name="brand" id="interscol">
-                  <label for="interscol">ИНТЕРСКОЛ</label>
-                </li>
-                <li class="form">
-                  <input type="checkbox" name="brand" id="makita">
-                  <label for="makita"> MAKITA</label>
-                </li>
-                <li class="form">
-                  <input type="checkbox" checked name="brand" id="dewalt">
-                  <label for="dewalt">DEWALT</label>
-                </li>
-                <li class="form">
-                  <input type="checkbox" name="brand" id="hitachi">
-                  <label for="hitachi">HITACHI </label>
-                </li>
-              </ul>
-            </fieldset>
+          <fieldset>
+            <legend>ПИТАНИЕ:</legend>
+            <h2 class="visualy-hidden">питание товаров</h2>
+            <ul class="filter-flex">
+              <li class="form">
+                <input class="visualy-hidden filter-input-radio " type="radio" checked name="power" value="rechargeable"
+                  id="charher1">
+                <label for="charher1">АККУМУЛЯТОРНЫЕ </label><br>
+              </li>
+              <li class="form">
+                <input class="visualy-hidden filter-input-radio " type="radio" name="power" value="network"
+                  id="charher2">
+                <label for="charher2">СЕТЕВЫЕ</label><br>
+              </li>
+            </ul>
+          </fieldset>
+        </form>
+        <button type="submit" class="submit-filter">ПОКАЗАТЬ</button>
 
-            <fieldset>
-              <legend>ПИТАНИЕ:</legend>
-              <h2 class="visualy-hidden">питание товаров</h2>
-              <ul class="filter-flex">
-                <li class="form">
-                  <input type="radio" checked name="power" value="rechargeable" id="charher1">
-                  <label for="charher1">АККУМУЛЯТОРНЫЕ </label><br>
-                </li>
-                <li class="form">
-                  <input type="radio" name="power" value="network" id="charher2">
-                  <label for="charher2">СЕТЕВЫЕ</label><br>
-                </li>
-              </ul>
-            </fieldset>
-            <button type="submit" class="submit-filter">ПОКАЗАТЬ</button>
-          </form>
 
-        </div>
       </section>
       <section class="catalog">
         <h2 class="visualy-hidden">ПЕРФОРАТОРЫ</h2>
@@ -225,10 +225,10 @@
             <li><a href="#">ПО ФУНКЦИОНАЛУ</a></li>
           </ul>
           <!-- стрелки вверх вниз-->
-
-          <a class="up" href="#">&#9650;</a>
-          <a class="up" href="#">&#9660;</a>
-
+          <div>
+            <button class="up" href="#">&#9650;</a>
+              <button class="up" href="#">&#9660;</a>
+          </div>
         </div>
 
         <div class="catalog-item-page">
@@ -358,8 +358,8 @@
                 <a href="#" class="bookmark">В закладки</a>
               </div>
               <div class="catalog-item-image">
-               <img src="img/item_1.jpg" width="220" height="165" alt="перфоратор Bosh BFG 2000">
-             </div>
+                <img src="img/item_1.jpg" width="220" height="165" alt="перфоратор Bosh BFG 2000">
+              </div>
               <div class="catalog-category">Перфоратор BOSCH BFG 6000 </div>
               <div class="button-price one-price">25500 Р.</div>
             </li>
@@ -374,7 +374,7 @@
         </div>
       </section>
     </div>
-   
+
     <div class="about-drill">
       <div class="container ">
         <h1> ПАРА СЛОВ О ПЕРФОРАТОРАХ</h1>
