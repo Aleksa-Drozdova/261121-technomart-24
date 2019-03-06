@@ -105,15 +105,3 @@ window.addEventListener("keydown", function(evt) {
   }
  }
 });
-
-
-// // SLIDER S-D-C
-// var slide = document.querySelector(".warranty-button");
-// var slidelink = document.querySelector("warranty");)
-
-// slide.addEventListener("click", function (evt) {
-//   evt.preventDefault();
-//   slidelink.classList.add("show-slide");
-// });
-
-// // SLIDER
