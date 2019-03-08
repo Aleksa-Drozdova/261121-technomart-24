@@ -65,7 +65,6 @@ var mapLink = document.querySelector(".contacts-button-map");
 var mapPopup = document.querySelector(".modal-map");
 var mapClose = mapPopup.querySelector(".modal-close");
 
-
 mapLink.addEventListener("click", function(evt) {
  evt.preventDefault();
  mapPopup.classList.add("modal-show");
@@ -83,6 +82,7 @@ window.addEventListener("keydown", function(evt) {
   }
  }
 });
+
 // MODAL ADD TO CART
 var link = document.querySelector(".buy");
 var popup2 = document.querySelector(".modal-cart");
@@ -105,4 +105,5 @@ window.addEventListener("keydown", function(evt) {
   }
  }
 });
+
 
