@@ -8,6 +8,7 @@ var close = popup.querySelector(".modal-close");
 var form = popup.querySelector(".form-message");
 var login = popup.querySelector("[name=user-name]");
 var password = popup.querySelector("[name=email]");
+var message = popup.querySelector("textarea");
 
 var isStorageSupport = true;
 var storage = "";
@@ -35,12 +36,12 @@ close.addEventListener("click", function(evt) {
 });
 
 form.addEventListener("submit", function(evt) {
- if (!login.value || !password.value) {
+ if (!login.value || !password.value || !textarea.value) {
   evt.preventDefault();
   popup.classList.remove("modal-error");
   popup.offsetWidth = popup.offsetWidth;
   popup.classList.add("modal-error");
-  console.log("Нужно ввести имя и имеил");
+  console.log("Нужно ввести имя, имеил и текс сообщения");
  } else {
   localStorage.setItem("login", login.value);
  }
@@ -84,11 +85,11 @@ window.addEventListener("keydown", function(evt) {
 });
 
 // MODAL ADD TO CART
-var link = document.querySelector(".buy");
+var clink = document.querySelector(".buy");
 var popup2 = document.querySelector(".modal-cart");
 var close = popup2.querySelector(".modal-close");
 
-link.addEventListener("click", function(evt) {
+clink.addEventListener("click", function(evt) {
  evt.preventDefault();
  popup2.classList.add("modal-show");
 });
