@@ -36,18 +36,16 @@ close.addEventListener("click", function(evt) {
 });
 
 form.addEventListener("submit", function(evt) {
- if (!login.value || !password.value || !textarea.value) {
+ if (!login.value || !password.value) {
   evt.preventDefault();
-  popup.classList.remove("modal-error");
-  popup.offsetWidth = popup.offsetWidth;
   popup.classList.add("modal-error");
   console.log("Нужно ввести имя, имеил и текс сообщения");
  } else {
-  localStorage.setItem("login", login.value);
+  if (isStorageSupport) {
+   localStorage.setItem("login", login.value);
+  }
  }
- if (isStorageSupport) {
-  localStorage.setItem("login", login.value);
- }
+
 });
 
 window.addEventListener("keydown", function(evt) {
@@ -106,5 +104,3 @@ window.addEventListener("keydown", function(evt) {
   }
  }
 });
-
-
